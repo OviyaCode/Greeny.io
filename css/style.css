@@ -475,7 +475,6 @@ footer .icons a i:hover{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(9,400px);
-         border: 1px solid #000;
      }
 
      .plants .content .cards .card img{
