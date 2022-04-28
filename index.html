@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Greeney</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!-- navigation bar -->
+
+    <nav>
+       <div class="navbar">
+        <div class="logo"><a href="#">Greeney</a></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">We are</a></li>
+            <li><a href="#plants">Plants</a></li>        
+            <div class="cancel-btn"><i class="fa fa-times"></i></div>
+        </ul>
+    </div> 
+    <div class="menu-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+    </nav>
+
+<!--hero section  -->
+<section class="home" id="home">
+    <div class="hero-content">
+        <div class="text">
+            <div class="text-one"> <span class="first">W</span>e love helping you to <br> safe the earth</div>
+            <div class="text-two">We help realize your dreams in making garden,<br>Let's with small things that can change world, <br> So you can enjoy the fresh air forever.</div>
+    
+        </div>
+        <div class="button">
+            <button>Pick Yours</button>
+        </div>
+    </div>
+</section>
+<!-- about -->
+<section class="about" id="about">
+    <div class="content">
+        <div class="title"><span>Why Greeney ?</span></div>
+        <div class="boxes">
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-pagelines" aria-hidden="true"></i>
+                </div>
+                <div class="topic">Unbeatable quality</div>
+                <p>We source directly from top-rated growers, so we can sell the finest quality plants at the very best prices.</p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-pagelines" aria-hidden="true"></i>
+                </div>
+                <div class="topic">Delivery to your door </div>
+                <p>We'll bring your plants to your door, anywhere in GB. If you're not 100% happy, tell us within 30 days and we'll sort it.</p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-pagelines" aria-hidden="true"></i>
+                </div>
+                <div class="topic">All the help you need</div>
+                <p>We'll send you a free plant-parenting course and our plant doctors are always on call.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="plants" id="plants">
+    <div class="content">
+        <div class="title"><span>Featured Collections</span></div>
+            <div class="cards">
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+                <div class="card">
+                    <img src="./images/plant2.png" alt="plant">
+                    <p><i class="fa fa-heart" aria-hidden="true"></i></p>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<footer>
+    <div class="text">
+        <span><a href="#">Greeney</a> | &copy; 2022 All Rights Reserved</span>
+    </div>
+    <div class="icons">
+        <a href="mailto:ovikrish008@gmail.com"><i class="fa fa-envelope"></i></a>
+    </div>
+</footer>
+
+<script src="./js/script.js"></script>
+<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script>
+
+
+</body>
+</html>
